@@ -17,7 +17,7 @@ public class DutchNationalFlag {
         int equal = 0;
         int larger = A.size()-1;
 
-        while (equal <= larger) {
+        while (equal < larger) {
             if (A.get(equal) < pivot) {
                 Collections.swap(A, A.get(equal++), A.get(smaller++));
             }
