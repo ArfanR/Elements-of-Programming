@@ -31,6 +31,21 @@ public class IncrementArbitraryPrecisionIntegerTest {
         test(input,incremented);
     }
 
+    @Test
+    public void incrementInteger4() {
+        input = Arrays.asList(0,1,2,3);
+        incremented = Arrays.asList(1,2,4);
+        test(input,incremented);
+    }
+
+    @Test
+    public void incrementInteger5() {
+        input = Arrays.asList(0,0,1,2,3);
+        incremented = Arrays.asList(1,2,4);
+        test(input,incremented);
+    }
+
+
     private void test(List<Integer> input, List<Integer> incremented) {
         IncrementArbitraryPrecisionInteger.incrementInteger(input);
         assertEquals(incremented, input);
