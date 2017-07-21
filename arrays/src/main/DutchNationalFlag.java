@@ -30,4 +30,20 @@ public class DutchNationalFlag {
         }
     }
 
+    // Variant: reorder so all keys with same value are together
+    public static void dutchNationalFlag2(int p, List<Integer> A) {
+        if (p < 0 || p >= A.size()) {
+            System.out.println("Invalid index");
+        }
+        int pivot = A.get(p);
+        int equal = 0;
+        for (int i = 0; i < A.size(); i++) {
+            if (pivot == A.get(i)) {
+                Collections.swap(A, A.get(equal++), A.get(i));
+            }
+        }
+    }
+
+
 }
+
