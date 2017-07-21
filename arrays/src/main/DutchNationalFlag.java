@@ -44,6 +44,18 @@ public class DutchNationalFlag {
         }
     }
 
+    // Variant: reorder keys with boolean values so the false appears first
+    public static void dutchNationalFlag3(int p, List<Boolean> A) {
+        if (p < 0 || p >= A.size()) {
+            System.out.println("Invalid index");
+        }
+        int falsePos = 0;
+        for (int i = 0; i < A.size(); i++) {
+            if (A.get(i) == false) {
+                Collections.swap(A, A.get(falsePos++), A.get(i));
+            }
+        }
+    }
 
 }
 
