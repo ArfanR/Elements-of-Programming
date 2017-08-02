@@ -3,7 +3,7 @@ import java.util.*;
 public class MultipleArbitraryPrecisionIntegers {
 
     /*
-    6.3
+    5.3
     */
 
     public static List<Integer> multiply(List<Integer> a, List<Integer> b) {
