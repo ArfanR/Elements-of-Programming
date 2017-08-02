@@ -4,28 +4,32 @@ import java.lang.*;
 public class DutchNationalFlag {
 
     /*
-    6.1
+    5.1
     */
 
     public static void dutchNationalFlag(int p, List<Integer> A) {
         if (p < 0 || p >= A.size()) {
             System.out.println("Invalid index");
         }
-
+        /*
+            keep separate groups for partitioning:
+            bottom: (0, smaller)
+            middle: (smaller, equal)
+            unclassified: (equal, larger)
+            top: (larger, A.size())
+        */
         int pivot = A.get(p);
-        int smaller = 0;
-        int equal = 0;
-        int larger = A.size()-1;
-
+        int smaller = 0, equal = 0, larger = A.size();
+        // iterate as long as there's an unclassified element
         while (equal < larger) {
             if (A.get(equal) < pivot) {
-                Collections.swap(A, A.get(equal++), A.get(smaller++));
+                Collections.swap(A, equal++, smaller++);
             }
             else if (A.get(equal) == pivot) {
                 equal++;
             }
-            else if (A.get(equal > pivot) {
-                Collections.swap(A, A.get(equal), A.get(larger--));
+            else if (A.get(equal) > pivot) {
+                Collections.swap(A, equal, --larger);
             }
         }
     }
@@ -39,7 +43,7 @@ public class DutchNationalFlag {
         int equal = 0;
         for (int i = 0; i < A.size(); i++) {
             if (pivot == A.get(i)) {
-                Collections.swap(A, A.get(equal++), A.get(i));
+                Collections.swap(A, equal++, i);
             }
         }
     }
@@ -52,7 +56,7 @@ public class DutchNationalFlag {
         int falsePos = 0;
         for (int i = 0; i < A.size(); i++) {
             if (A.get(i) == false) {
-                Collections.swap(A, A.get(falsePos++), A.get(i));
+                Collections.swap(A, falsePos++, i);
             }
         }
     }

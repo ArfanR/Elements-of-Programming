@@ -1,5 +1,4 @@
 import org.junit.Test;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -32,9 +31,18 @@ public class DutchNationalFlagTest {
 
     @Test
     public void dutchNationalFlag3() {
-        pivot = 8;
-        unordered = Arrays.asList(3, 3, 3, 2, 2, 2, 1, 1, 1);
-        ordered = Arrays.asList(1, 1, 1, 2, 2, 2, 3, 3, 3);
+        pivot = 3;
+        unordered = Arrays.asList(0, 1, 2, 0, 2, 1, 1);
+        ordered = Arrays.asList(0, 0, 2, 2, 1, 1, 1);
+
+        test(pivot, unordered, ordered);
+    }
+
+    @Test
+    public void dutchNationalFlag4() {
+        pivot = 2;
+        unordered = Arrays.asList(0, 1, 2, 0, 2, 1, 1);
+        ordered = Arrays.asList(0, 1, 0, 1, 1, 2, 2);
 
         test(pivot, unordered, ordered);
     }
