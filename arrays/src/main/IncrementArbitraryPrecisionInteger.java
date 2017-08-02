@@ -7,7 +7,7 @@ public class IncrementArbitraryPrecisionInteger {
     */
 
     public static List<Integer> incrementInteger(List<Integer> result) {
-    		List<Integer> A = new ArrayList<Integer>(result);
+    	List<Integer> A = new ArrayList<Integer>(result);
         int n = A.size()-1;
         A.set(n, A.get(n)+1);
 

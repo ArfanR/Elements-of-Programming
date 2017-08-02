@@ -30,7 +30,7 @@ public class AdvanceThroughArrayTest {
     }
 	
 	private void test(List<Integer> input, boolean possible) {
-        assertEquals(AdvanceThroughArray.arrayAdvance(input), possible);
-    }
+		assertEquals(AdvanceThroughArray.arrayAdvance(input), possible);
+	}
 	
 }
