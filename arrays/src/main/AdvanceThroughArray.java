@@ -14,8 +14,20 @@ public class AdvanceThroughArray {
 		return furthestAdvance >= lastIndex;
 	}
 	
+	// Variant: min number of steps to get to last location
+	public static int arrayAdvance2(List<Integer> A) {
+		int minSteps = 0, furthestAdvance = 0, lastIndex = A.size()-1;
+		for (int i = 0; i <= furthestAdvance && furthestAdvance < lastIndex; i++) {
+			if (A.get(i)+i > furthestAdvance) {
+				minSteps++;
+				furthestAdvance = A.get(i)+i;
+			}
+		}
+		return minSteps;
+	}
+	
 	// Solution will not work for large entries with large possibilities 
-    public static boolean arrayAdvance2(List<Integer> A) {
+    public static boolean arrayAdvance3(List<Integer> A) {
     	int prevPos = 0, currPos = 0;
     	int prevVal = A.get(0), currVal = A.get(0);
     		
