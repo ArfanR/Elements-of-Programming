@@ -21,8 +21,7 @@ public class AdvanceThroughArray {
     		
    		if (A.size() <= 1) {
    			return true;
-   		}
-    		
+   		}	
    		while (currPos < A.size()-1) {    			
    			if  (A.get(currPos + currVal) == 0) {
     			currVal--;
@@ -43,7 +42,6 @@ public class AdvanceThroughArray {
     			currVal = A.get(currPos);
     		}
     	}
-    		
         return true;
     }
     
