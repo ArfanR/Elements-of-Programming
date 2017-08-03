@@ -10,7 +10,6 @@ public class MultipleArbitraryPrecisionIntegers {
         final int sign = a.get(0) < 0 || b.get(0) < 0 ? -1 : 1;
         a.set(0, Math.abs(a.get(0)));
         b.set(0, Math.abs(b.get(0)));
-
         List<Integer> result = new ArrayList<Integer>(Collections.nCopies(a.size() + b.size(), 0));
         // use grade school multiplication 
         // start from back of the array 
@@ -21,19 +20,17 @@ public class MultipleArbitraryPrecisionIntegers {
                 result.set(i+j+1, result.get(i+j+1) % 10);
             }
         }
-
         // remove leading zeroes
         int firstNotZero = 0;
         while (firstNotZero < result.size() && result.get(firstNotZero) == 0) {
             firstNotZero++;
         }
         result = result.subList(firstNotZero, result.size());
-
+        // return result with correct sign 
         if (result.isEmpty()) {
             return Arrays.asList(0);
         }
         result.set(0, result.get(0) * sign);
-        
         return result;
     }
     

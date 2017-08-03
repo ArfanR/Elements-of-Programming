@@ -26,7 +26,6 @@ public class IncrementArbitraryPrecisionInteger {
                 A.remove(0);
             }
         }
-
         return A;
     }
 

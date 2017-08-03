@@ -18,7 +18,34 @@ public class DeleteDuplicates {
     	while (counter < A.size()) {
     		A.set(counter++, 0);
     	}
-    	
     	return A;
     }
+    
+    // Variant: remove specific duplicate element 
+    public static int deleteDuplicates2(List<Integer> A, int b) {
+    	int counter = 1;
+    	// overwrite duplicates with unique values
+    	for (int i = 1; i < A.size(); i++) {
+    		if (A.get(i) != b) {
+    			A.set(counter++, A.get(i));
+    		}
+    	}
+    	return counter;
+    }
+    
+    // Variant: remove duplicates to appear at most twice
+    public static int deleteDuplicates3(List<Integer> A) {
+    	if (A.size() < 3) {
+	        return A.size();
+    	}
+    	int counter = 1;
+    	// overwrite duplicates with unique values
+    	for (int i = 2; i < A.size(); i++) {
+    		if (A.get(i) != A.get(counter-1)) {
+    			A.set(++counter, A.get(i));
+    		}
+    	}
+    	return counter+1;
+    }
+    
 }
