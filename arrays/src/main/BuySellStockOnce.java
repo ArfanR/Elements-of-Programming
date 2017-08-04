@@ -14,4 +14,20 @@ public class BuySellStockOnce {
         }
         return maxProfit;
     }
+    
+    // Variant: length of longest subarray of equal entries
+    public static int longestSubarray(List<Integer> entries) {
+    	int minPos = 0, maxLength = 1;
+    	for (int i = 1; i < entries.size(); i++) {
+    		if (entries.get(i) == entries.get(minPos)) {
+    			maxLength++;
+    		}
+    		else {
+    			maxLength = 1;
+    			minPos = i;
+    		}
+    	}
+    	return maxLength;
+    }
+   
 }
