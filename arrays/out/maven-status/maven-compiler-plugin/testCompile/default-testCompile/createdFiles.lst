@@ -1,6 +1,7 @@
 AdvanceThroughArrayTest.class
-MultipleArbitraryPrecisionIntegersTest.class
 DeleteDuplicatesTest.class
+BuySellStockTwiceTest.class
 IncrementArbitraryPrecisionIntegerTest.class
 BuySellStockOnceTest.class
 DutchNationalFlagTest.class
+MultipleArbitraryPrecisionIntegersTest.class
