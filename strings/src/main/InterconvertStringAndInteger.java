@@ -13,9 +13,23 @@ public class InterconvertStringAndInteger {
     	return s.charAt(0) == '-' ? -result : result;
     }
 
-    public static String intToString(Integer number) {
+    public static String intToString(Integer num) {
+    	boolean isNegative = false;
+        if (num < 0) {
+          isNegative = true;
+        }
 
-        return "";
+        StringBuilder s = new StringBuilder();
+        do {
+          s.append((char)('0' + Math.abs(num % 10)));
+          num /= 10;
+        } while (num != 0);
+
+        if (isNegative) {
+          s.append('-'); // Adds the negative sign back.
+        }
+        s.reverse();
+        return s.toString();
     }
 
 }
