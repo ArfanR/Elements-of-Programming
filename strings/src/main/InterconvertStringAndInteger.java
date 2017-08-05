@@ -4,22 +4,13 @@ public class InterconvertStringAndInteger {
     6.1
     */
 
-    public static Integer stringToInt(String number) {
-    	Integer num = new Integer(0);
-    	int i = 0; 
-    	boolean isNeg = false;
-    	if (number.charAt(0) == '-') {
-    		isNeg = true;
-    		i = 1;
+    public static int stringToInt(String s) {
+    	int result = 0;
+    	for (int i = s.charAt(0) == '-' ? 1 : 0; i < s.length(); i++) {
+    		final int digit = s.charAt(i) - '0';
+    		result = result * 10 + digit;
     	}
-    	while (i < len) {
-    		num *= 10;
-    		num += (number.charAt(i++) - '0');
-    	}
-    	if (isNeg) {
-    		num = -1*num;
-    	}
-    	return num;
+    	return s.charAt(0) == '-' ? -result : result;
     }
 
     public static String intToString(Integer number) {
