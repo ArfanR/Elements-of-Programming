@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="InterconvertStringAndIntegerTest" time="0.001" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="ReplaceAndRemoveTest" time="0.001" tests="4" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
@@ -61,8 +61,36 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="stringToInteger1" classname="InterconvertStringAndIntegerTest" time="0"/>
-  <testcase name="stringToInteger2" classname="InterconvertStringAndIntegerTest" time="0.001"/>
-  <testcase name="stringToInteger3" classname="InterconvertStringAndIntegerTest" time="0"/>
-  <testcase name="stringToInteger4" classname="InterconvertStringAndIntegerTest" time="0"/>
+  <testcase name="replaceAndRemove1" classname="ReplaceAndRemoveTest" time="0">
+    <failure message="expected:&lt;[dd]&gt; but was:&lt;[[C@1c4af82c]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[dd]> but was:<[[C@1c4af82c]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ReplaceAndRemoveTest.test(ReplaceAndRemoveTest.java:48)
+	at ReplaceAndRemoveTest.replaceAndRemove1(ReplaceAndRemoveTest.java:17)
+]]></failure>
+  </testcase>
+  <testcase name="replaceAndRemove2" classname="ReplaceAndRemoveTest" time="0.001">
+    <failure message="expected:&lt;[d]d&gt; but was:&lt;[[C@762efe5]d&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[d]d> but was:<[[C@762efe5]d>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ReplaceAndRemoveTest.test(ReplaceAndRemoveTest.java:48)
+	at ReplaceAndRemoveTest.replaceAndRemove2(ReplaceAndRemoveTest.java:26)
+]]></failure>
+  </testcase>
+  <testcase name="replaceAndRemove3" classname="ReplaceAndRemoveTest" time="0">
+    <failure message="expected:&lt;[ddddc]&gt; but was:&lt;[[C@5d22bbb7]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ddddc]> but was:<[[C@5d22bbb7]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ReplaceAndRemoveTest.test(ReplaceAndRemoveTest.java:48)
+	at ReplaceAndRemoveTest.replaceAndRemove3(ReplaceAndRemoveTest.java:35)
+]]></failure>
+  </testcase>
+  <testcase name="replaceAndRemove4" classname="ReplaceAndRemoveTest" time="0">
+    <failure message="expected:&lt;[ddcdcdd]&gt; but was:&lt;[[C@41a4555e]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ddcdcdd]> but was:<[[C@41a4555e]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ReplaceAndRemoveTest.test(ReplaceAndRemoveTest.java:48)
+	at ReplaceAndRemoveTest.replaceAndRemove4(ReplaceAndRemoveTest.java:44)
+]]></failure>
+  </testcase>
 </testsuite>
