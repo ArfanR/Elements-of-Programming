@@ -3,6 +3,9 @@ import java.util.*;
 
 public class StringSinusoidal {
 	
+	/*
+	6.11
+	*/
 	 public static String snakeString(String s) {
 		 StringBuilder result = new StringBuilder();
 		 // Outputs the first row, i.e., s[1], s[5], s[9], ...
