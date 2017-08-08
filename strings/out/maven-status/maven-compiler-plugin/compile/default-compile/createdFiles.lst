@@ -1,4 +1,5 @@
 BaseConversion.class
 ReplaceAndRemove.class
 InterconvertStringAndInteger.class
+PalindromeAlphanumeric.class
 SpreadsheetColumnEncoding.class

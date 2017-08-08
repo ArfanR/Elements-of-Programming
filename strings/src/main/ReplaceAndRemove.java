@@ -3,7 +3,7 @@ import java.util.*;
 public class ReplaceAndRemove {
 	
 	 /*
-    7.4
+    6.4
     */
 
     public static String replaceAndRemove(char[] s, int size) {
@@ -17,6 +17,7 @@ public class ReplaceAndRemove {
         		++aCount;
         	}	
         }
+        if (writeIdx == 0) return "";
         // Backward iteration: replace "a"s with "dd"s starting from the end.
         int curIdx = writeIdx - 1;
         writeIdx = writeIdx + aCount - 1;
@@ -29,7 +30,7 @@ public class ReplaceAndRemove {
         	}
         	--curIdx;
         }
-        return s.toString();
+        return String.valueOf(s);
     }
     
 }
