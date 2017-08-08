@@ -33,4 +33,24 @@ public class ReplaceAndRemove {
         return String.valueOf(s);
     }
     
+    // Variant: merge two sorted arrays into A
+    public static void mergeArrays(char[] a, char[] b) {
+    	int indexA = 0, indexB = 0;
+    	int writeIdx = a.length + b.length - 1;
+    	while (indexA < a.length && indexB < b.length) {
+    		if (a[indexA] < b[indexB]) {
+    			a[writeIdx--] = a[indexA++];
+    		}
+    		else {
+    			a[writeIdx--] = a[indexB++];
+    		}
+    	}
+    	while (indexA < a.length) {
+    		a[writeIdx--] = a[indexA++];
+    	}
+    	while (indexB < b.length) {
+    		a[writeIdx--] = a[indexB++];
+    	}
+    }
+    
 }
