@@ -1,12 +1,15 @@
+import java.util.*;
+
 public class ReverseWordsInASentence {
 
     /*
     6.6
     */
 
-    public static void reverseWordsInASentence(char[] input) {
+    public static String reverseWordsInASentence(char[] input) {
+    	int n = input.length;
     	// First, reverse all characters in sentence
-    	reverse(input, 0, input.length-1);
+    	reverse(input, 0, n-1);
     	// Second, reverse every word in sentence
     	int start = 0, end = 0;
     	while (start < n) {
@@ -20,7 +23,7 @@ public class ReverseWordsInASentence {
     		}
     		reverse(input, start, end-1);
     	}
-        return input;
+        return String.valueOf(input);
     }
     
 
