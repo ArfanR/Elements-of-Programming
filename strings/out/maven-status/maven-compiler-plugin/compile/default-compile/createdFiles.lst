@@ -1,6 +1,7 @@
-BaseConversion.class
-ReplaceAndRemove.class
+ComputeMnemonicsPhoneNumber.class
 ReverseWordsInASentence.class
 InterconvertStringAndInteger.class
-PalindromeAlphanumeric.class
 SpreadsheetColumnEncoding.class
+BaseConversion.class
+ReplaceAndRemove.class
+PalindromeAlphanumeric.class
