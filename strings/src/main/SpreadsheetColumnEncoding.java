@@ -8,7 +8,7 @@ public class SpreadsheetColumnEncoding {
     	int result = 0;
     	for (int i = 0; i < code.length(); i++) {
     		char c = code.charAt(i);
-    		result = result * 26 + (int) c - 64 + 1;
+    		result = result * 26 + (int) c - 64;
     	}
     	return result;
     }

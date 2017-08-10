@@ -17,13 +17,13 @@ public class RomanToDecimal {
     		put('D', 500);
     		put('M', 1000);
     	}};
-    	int sum = T.get(roman.charAt(s.length() - 1));
-    	for (int i = s.length() - 2; i >= 0; --i) {
+    	int sum = T.get(roman.charAt(roman.length() - 1));
+    	for (int i = roman.length() - 2; i >= 0; --i) {
     		if (T.get(roman.charAt(i)) < T.get(roman.charAt(i + 1))) {
-    			sum -= T.get(s.charAt(i));
+    			sum -= T.get(roman.charAt(i));
     	    } 
     		else {
-    			sum += T.get(s.charAt(i));
+    			sum += T.get(roman.charAt(i));
     	    }
     	 }
     	return sum;  

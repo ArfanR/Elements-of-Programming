@@ -1,6 +1,8 @@
 InterconvertStringAndIntegerTest.class
+RomanToDecimalTest.class
 ReverseWordsInASentenceTest.class
 BaseConversionTest.class
 PalindromeAlphanumericTest.class
+SpreadsheetColumnEncodingTest.class
 StringSinusoidalTest.class
 ReplaceAndRemoveTest.class
