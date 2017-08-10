@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AdvanceThroughArrayTest" time="0.005" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="EnumeratePrimesTest" time="0.002" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
@@ -61,7 +61,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="advanceThroughArray1" classname="AdvanceThroughArrayTest" time="0.005"/>
-  <testcase name="advanceThroughArray2" classname="AdvanceThroughArrayTest" time="0"/>
-  <testcase name="advanceThroughArray3" classname="AdvanceThroughArrayTest" time="0"/>
+  <testcase name="enumeratePrimes1" classname="EnumeratePrimesTest" time="0.002"/>
+  <testcase name="enumeratePrimes2" classname="EnumeratePrimesTest" time="0"/>
 </testsuite>

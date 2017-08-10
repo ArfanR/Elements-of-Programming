@@ -5,4 +5,5 @@ IncrementArbitraryPrecisionIntegerTest.class
 BuySellStockOnceTest.class
 DutchNationalFlagTest.class
 MultipleArbitraryPrecisionIntegersTest.class
+EnumeratePrimesTest.class
 RearrangeTest.class

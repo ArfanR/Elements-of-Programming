@@ -5,8 +5,12 @@ public class SpreadsheetColumnEncoding {
     */
 
     public static int decodeSpreadsheetColumn(String code) {
-
-        return 0;
+    	int result = 0;
+    	for (int i = 0; i < code.length(); i++) {
+    		char c = code.charAt(i);
+    		result = result * 26 + (int) c - 64 + 1;
+    	}
+    	return result;
     }
 
 

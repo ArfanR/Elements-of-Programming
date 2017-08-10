@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class EnumeratePrimes {
 
@@ -7,7 +6,7 @@ public class EnumeratePrimes {
     5.8
     */
 
-    public static List<Integer> generatePrimes(int n) {
+    public static List<Integer> enumeratePrimes(int n) {
     	List<Integer> primes = new ArrayList<>();
     	// isPrime.get(p) represents if p is prime or not. Initially, set each
         // to true, excepting 0 and 1. Then use sieving to eliminate nonprimes.
