@@ -3,6 +3,7 @@ RomanToDecimalTest.class
 ReverseWordsInASentenceTest.class
 BaseConversionTest.class
 PalindromeAlphanumericTest.class
+LookAndSayProblemTest.class
 SpreadsheetColumnEncodingTest.class
 StringSinusoidalTest.class
 ReplaceAndRemoveTest.class
