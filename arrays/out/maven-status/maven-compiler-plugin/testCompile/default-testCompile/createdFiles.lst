@@ -6,4 +6,5 @@ BuySellStockOnceTest.class
 DutchNationalFlagTest.class
 MultipleArbitraryPrecisionIntegersTest.class
 EnumeratePrimesTest.class
+PermuteElementsTest.class
 RearrangeTest.class
