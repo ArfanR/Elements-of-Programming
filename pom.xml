@@ -9,6 +9,7 @@
   		<module>primitives</module>
         <module>arrays</module>
         <module>strings</module>
+        <module>linkedlists</module>
   </modules>
   
   <build>
