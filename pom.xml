@@ -6,6 +6,8 @@
   <packaging>pom</packaging>
   
   <modules>
+  		<module>datastructures</module>
+  		<module>utils</module>
   		<module>primitives</module>
         <module>arrays</module>
         <module>strings</module>

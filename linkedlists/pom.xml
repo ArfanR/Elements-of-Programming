@@ -12,4 +12,12 @@
     <artifactId>linkedlists</artifactId>
     <name>Chapter 7: Linked Lists</name>
 
+	<dependencies>
+        <dependency>
+            <groupId>ArfanR</groupId>
+            <artifactId>datastructures</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    
 </project>
