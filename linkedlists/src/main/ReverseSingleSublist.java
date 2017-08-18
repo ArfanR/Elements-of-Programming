@@ -29,8 +29,8 @@ public class ReverseSingleSublist {
  		ListNode<Integer> next;
  		// use prev as dummy node
  		while (current != null) {
- 			next = current.getNext();
- 			current.setNext(prev);
+ 			next = current.next;
+ 			current.next = prev;
  			prev = current;
  			current = next;
  		}
