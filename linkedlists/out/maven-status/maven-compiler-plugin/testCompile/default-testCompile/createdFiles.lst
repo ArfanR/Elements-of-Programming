@@ -1,4 +1,5 @@
 DeleteNodeTest.class
+EvenOddMergeTest.class
 ReverseSingleSublistTest.class
 TestCyclicityTest.class
 MergeSortedListsTest.class

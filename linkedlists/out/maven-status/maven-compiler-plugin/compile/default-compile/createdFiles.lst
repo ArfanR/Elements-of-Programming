@@ -1,6 +1,7 @@
 RemoveDuplicatesFromSortedList.class
 TestForOverlappingLists.class
 ReverseSingleSublist.class
+EvenOddMerge.class
 DeleteKthLastNode.class
 MergeSortedLists.class
 TestCyclicity.class
