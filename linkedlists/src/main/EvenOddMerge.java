@@ -14,8 +14,7 @@ public class EvenOddMerge {
         ListNode<Integer> connectNode = head.next;
      
         while (p1 != null && p2 != null) {
-        	ListNode<Integer> t = p2.next;
-        	if(t == null) break;
+        	if (p2.next == null) break;
         	
         	p1.next = p2.next;
         	p1 = p1.next;
