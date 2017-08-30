@@ -12,6 +12,7 @@
         <module>arrays</module>
         <module>strings</module>
         <module>linkedlists</module>
+        <module>stacksandqueues</module>
   </modules>
   
   <build>
