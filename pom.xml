@@ -13,6 +13,7 @@
         <module>strings</module>
         <module>linkedlists</module>
         <module>stacksandqueues</module>
+        <module>binarytrees</module>
   </modules>
   
   <build>
