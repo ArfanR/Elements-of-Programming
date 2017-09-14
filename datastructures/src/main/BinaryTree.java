@@ -3,8 +3,6 @@ public class BinaryTree<T> {
     public BinaryTree<T> left, right;
     public Boolean isVisited = false;
 
-
-
     public BinaryTree(T data) {
         this.data = data;
     }

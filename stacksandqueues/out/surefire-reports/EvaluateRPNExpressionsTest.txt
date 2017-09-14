@@ -1,22 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: EvaluateRPNExpressionsTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.019 sec <<< FAILURE! - in EvaluateRPNExpressionsTest
-eval2(EvaluateRPNExpressionsTest)  Time elapsed: 0.016 sec  <<< ERROR!
-java.lang.NumberFormatException: For input string: "x"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at EvaluateRPNExpressions.eval(EvaluateRPNExpressions.java:35)
-	at EvaluateRPNExpressionsTest.test(EvaluateRPNExpressionsTest.java:35)
-	at EvaluateRPNExpressionsTest.eval2(EvaluateRPNExpressionsTest.java:23)
-
-eval3(EvaluateRPNExpressionsTest)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NumberFormatException: For input string: "x"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at EvaluateRPNExpressions.eval(EvaluateRPNExpressions.java:35)
-	at EvaluateRPNExpressionsTest.test(EvaluateRPNExpressionsTest.java:35)
-	at EvaluateRPNExpressionsTest.eval3(EvaluateRPNExpressionsTest.java:31)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in EvaluateRPNExpressionsTest

@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import java.lang.*;
 import static org.junit.Assert.assertEquals;
 
 public class EvaluateRPNExpressionsTest {
@@ -18,7 +19,7 @@ public class EvaluateRPNExpressionsTest {
     @Test
     public void eval2() {
         expected = 15;
-        expression = "3,4,+,2,x,1,+";
+        expression = "3,4,+,2,*,1,+";
 
         test(expected, expression);
     }
@@ -26,7 +27,7 @@ public class EvaluateRPNExpressionsTest {
     @Test
     public void eval3() {
         expected = -4;
-        expression = "1,1,+,-2,x";
+        expression = "1,1,+,-2,*";
 
         test(expected, expression);
     }
