@@ -1,15 +1,14 @@
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
-public class InorderIterative {
+public class InOrderIterative {
 
     /*
     9.7
     */
 
     public static List<Integer> BSTInOrder(BinaryTree<Integer> tree) {
-    	Deque<BSTNode<Integer>> s = new LinkedList<>();
-        BSTNode<Integer> curr = tree;
+    	Deque<BinaryTree<Integer>> s = new LinkedList<>();
+        BinaryTree<Integer> curr = tree;
         List<Integer> result = new ArrayList<>();
 
         while (!s.isEmpty() || curr != null) {

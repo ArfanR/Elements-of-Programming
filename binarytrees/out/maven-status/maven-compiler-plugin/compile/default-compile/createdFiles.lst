@@ -1,4 +1,6 @@
 ComputeLCAWithParent.class
+InOrderIterative.class
+PreOrderIterative.class
 IsHeightBalanced.class
 IsHeightBalanced$BalanceStatusWithHeight.class
 IsSymmetric.class

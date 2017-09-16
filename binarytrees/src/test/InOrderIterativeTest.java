@@ -5,7 +5,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class InorderIterativeTest {
+public class InOrderIterativeTest {
 
     private List<Integer> expected;
     private BinaryTree<Integer> tree;
@@ -35,7 +35,7 @@ public class InorderIterativeTest {
     }
 
     private void test(List<Integer> expected, BinaryTree<Integer> tree) {
-        assertEquals(expected, InorderIterative.BSTInOrder(tree));
+        assertEquals(expected, InOrderIterative.BSTInOrder(tree));
     }
 
 }

@@ -1,3 +1,5 @@
+InOrderIterativeTest.class
 IsSymmetricTest.class
-ComputeLCAWithParentTest.class
 IsHeightBalancedTest.class
+ComputeLCAWithParentTest.class
+PreOrderIterativeTest.class
