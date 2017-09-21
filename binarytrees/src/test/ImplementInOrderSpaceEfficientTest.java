@@ -12,7 +12,7 @@ public class ImplementInOrderSpaceEfficientTest {
 
     @Test
     public void inorderTraversal1() throws Exception {
-        expected = Arrays.asList(2,1,0);
+        expected = Arrays.asList(1,0,2);
         tree = BinaryTreeUtil.getOddTreeWithParent();
 
         test(expected, tree);

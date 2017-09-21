@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ImplementInOrderSpaceEfficientTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE! - in ImplementInOrderSpaceEfficientTest
-inorderTraversal1(ImplementInOrderSpaceEfficientTest)  Time elapsed: 0.008 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<[2, 1, 0]> but was:<[1, 0, 2]>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at ImplementInOrderSpaceEfficientTest.test(ImplementInOrderSpaceEfficientTest.java:38)
-	at ImplementInOrderSpaceEfficientTest.inorderTraversal1(ImplementInOrderSpaceEfficientTest.java:18)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in ImplementInOrderSpaceEfficientTest
