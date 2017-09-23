@@ -1,11 +1,12 @@
-public class InsertionAndDeletionBST extends BinaryTree<Integer> {
+public class InsertionAndDeletionBST {
 
     /*
     14.10
     */
-
+	private BinaryTree<Integer> root = null;
+	
     public InsertionAndDeletionBST(Integer data) {
-        super(data);
+    	root = new BinaryTree<Integer>(data);
     }
 
     public boolean insert(Integer key) {
@@ -41,6 +42,61 @@ public class InsertionAndDeletionBST extends BinaryTree<Integer> {
     }
 
     public boolean delete(Integer key) {
-        return false;
+    	// Find the node with key.
+        BinaryTree<Integer> curr = root, parent = null;
+        while (curr != null && Integer.compare(curr.data, key) != 0) {
+        	parent = curr;
+        	curr = Integer.compare(key, curr.data) < 0 ? curr.left : curr.right;
+        }
+
+        if (curr == null) { // There's no node with key in this tree.
+        	return false;
+        }
+
+        BinaryTree<Integer> keyNode = curr;
+        // no children
+        if (keyNode.left == null && keyNode.right == null) {
+        	keyNode = null;
+        }
+        // one left child
+        else if (keyNode.right == null) {
+        	if (parent.left == keyNode) {
+    			parent.left = keyNode.left;
+    		} 
+    		else {
+    			parent.right = keyNode.left;
+    		}
+        	keyNode.left = null;
+        }
+        // one right child
+        else if (keyNode.left == null) {
+        	if (parent.left == keyNode) {
+        		parent.left = keyNode.right;
+        	}
+        	else {
+        		parent.right = keyNode.right;
+        	}
+        	keyNode.right = null;
+        }
+        else {
+        	// Find the minimum of the right subtree.
+        	BinaryTree<Integer> rKeyNode = keyNode.right;
+        	BinaryTree<Integer> rParent = keyNode;
+        	while (rKeyNode.left != null) {
+        		rParent = rKeyNode;
+        		rKeyNode = rKeyNode.left;
+        	}
+        	keyNode.data = rKeyNode.data;
+        	// Move links to erase the node.
+        	if (rParent.left == rKeyNode) {
+        		rParent.left = rKeyNode.right;
+        	} 
+        	else { // rParent.left != rKeyNode.
+        		rParent.right = rKeyNode.right;
+        	}
+        	rKeyNode.right = null;
+        }
+        return true; 
     }
+    
 }

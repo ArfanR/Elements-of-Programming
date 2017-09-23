@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: InsertionAndDeletionBSTTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE! - in InsertionAndDeletionBSTTest
+test1(InsertionAndDeletionBSTTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=2, left=0, right=null}> but was:<BinaryTree{data=1, left=0, right=2}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at InsertionAndDeletionBSTTest.test1(InsertionAndDeletionBSTTest.java:12)
+
+test2(InsertionAndDeletionBSTTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=4, left=1, right=6}> but was:<BinaryTree{data=0, left=1, right=4}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at InsertionAndDeletionBSTTest.test2(InsertionAndDeletionBSTTest.java:24)
+
