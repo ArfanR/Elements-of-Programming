@@ -1,3 +1,4 @@
+import junit.framework.AssertionFailedError;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -39,7 +40,20 @@ public class FindKLargestTest {
     }
 
     private void test(List<Integer> expected, BinaryTree<Integer> tree, int k) {
-        AssertUtils.assertSameContentsInt(expected, FindKLargest.findLargest(tree, k));
+        List<Integer> result = FindKLargest.findLargest(tree, k);
+        try {
+            expected.forEach((expect) -> {
+                if (!result.contains(expect))
+                    throw new AssertionError();
+                result.remove(expect);
+            });
+            assertEquals(0, result.size());
+        } catch (AssertionError e) {
+            StringBuilder errorMessage = new StringBuilder();
+            errorMessage.append("\nExpected: "+expected.toString());
+            errorMessage.append("\nActual: "+result.toString()+"\n");
+            fail(errorMessage.toString());
+        }
     }
 
 }

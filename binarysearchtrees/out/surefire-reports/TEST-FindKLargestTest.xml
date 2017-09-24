@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="InsertionAndDeletionBSTTest" time="0.015" tests="2" errors="0" skipped="0" failures="2">
+<testsuite name="FindKLargestTest" time="0.059" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
@@ -25,7 +25,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/ArfanR/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3044890695504349465.tmp"/>
+    <property name="classworlds.conf" value="/Users/ArfanR/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2265332161801478126.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/ArfanR/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,22 +61,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="test1" classname="InsertionAndDeletionBSTTest" time="0.015">
-    <failure message="expected:&lt;BinaryTree{data=2, left=0, right=null}&gt; but was:&lt;BinaryTree{data=1, left=0, right=2}&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<BinaryTree{data=2, left=0, right=null}> but was:<BinaryTree{data=1, left=0, right=2}>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at InsertionAndDeletionBSTTest.test1(InsertionAndDeletionBSTTest.java:12)
-]]></failure>
-  </testcase>
-  <testcase name="test2" classname="InsertionAndDeletionBSTTest" time="0">
-    <failure message="expected:&lt;BinaryTree{data=4, left=1, right=6}&gt; but was:&lt;BinaryTree{data=0, left=1, right=4}&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<BinaryTree{data=4, left=1, right=6}> but was:<BinaryTree{data=0, left=1, right=4}>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at InsertionAndDeletionBSTTest.test2(InsertionAndDeletionBSTTest.java:24)
-]]></failure>
-  </testcase>
+  <testcase name="findLargest1" classname="FindKLargestTest" time="0.058"/>
+  <testcase name="findLargest2" classname="FindKLargestTest" time="0.001"/>
+  <testcase name="findLargest3" classname="FindKLargestTest" time="0"/>
 </testsuite>

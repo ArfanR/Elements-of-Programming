@@ -1,4 +1,5 @@
 IsBSTTest.class
 MinimalHeightBSTTest.class
+FindKLargestTest.class
 InsertionAndDeletionBSTTest.class
 FirstGreaterThanTest.class
