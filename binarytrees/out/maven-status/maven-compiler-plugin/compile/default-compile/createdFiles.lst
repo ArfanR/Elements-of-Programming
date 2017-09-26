@@ -1,7 +1,9 @@
 ComputeLCAWithParent.class
 PreOrderIterative.class
 IsSymmetric.class
+ComputeLowestCommonAncestor$Status.class
 InOrderIterative.class
 ImplementInOrderSpaceEfficient.class
 IsHeightBalanced.class
+ComputeLowestCommonAncestor.class
 IsHeightBalanced$BalanceStatusWithHeight.class
