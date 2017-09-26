@@ -1,4 +1,6 @@
 FindKLargest.class
 InsertionAndDeletionBST.class
 IsBST.class
+ComputeLCA.class
 FirstGreaterThan.class
+MinimalHeightBST.class
