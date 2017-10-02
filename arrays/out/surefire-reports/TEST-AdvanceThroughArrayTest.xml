@@ -25,7 +25,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/ArfanR/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7584387876018770560.tmp"/>
+    <property name="classworlds.conf" value="/Users/ArfanR/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5013474911249236762.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/ArfanR/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,6 +62,6 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="advanceThroughArray1" classname="AdvanceThroughArrayTest" time="0.002"/>
-  <testcase name="advanceThroughArray2" classname="AdvanceThroughArrayTest" time="0.001"/>
-  <testcase name="advanceThroughArray3" classname="AdvanceThroughArrayTest" time="0"/>
+  <testcase name="advanceThroughArray2" classname="AdvanceThroughArrayTest" time="0"/>
+  <testcase name="advanceThroughArray3" classname="AdvanceThroughArrayTest" time="0.001"/>
 </testsuite>
