@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReconstructBinaryTreeTest" time="0.014" tests="3" errors="1" skipped="0" failures="1">
+<testsuite name="ReconstructBinaryTreeTest" time="0.001" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
@@ -25,7 +25,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/ArfanR/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf577328556453095947.tmp"/>
+    <property name="classworlds.conf" value="/Users/ArfanR/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf9100230095871328849.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/ArfanR/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,34 +62,5 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="binaryTreeFromPreorderInorder1" classname="ReconstructBinaryTreeTest" time="0.001"/>
-  <testcase name="binaryTreeFromPreorderInorder2" classname="ReconstructBinaryTreeTest" time="0.008">
-    <failure message="expected:&lt;BinaryTree{data=4, left=2, right=6}&gt; but was:&lt;BinaryTree{data=0, left=1, right=4}&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<BinaryTree{data=4, left=2, right=6}> but was:<BinaryTree{data=0, left=1, right=4}>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at ReconstructBinaryTreeTest.test(ReconstructBinaryTreeTest.java:42)
-	at ReconstructBinaryTreeTest.binaryTreeFromPreorderInorder2(ReconstructBinaryTreeTest.java:29)
-]]></failure>
-  </testcase>
-  <testcase name="binaryTreeFromPreorderInorder3" classname="ReconstructBinaryTreeTest" time="0.005">
-    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:25)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
-	at ReconstructBinaryTree.binaryTreeFromPreorderInorder(ReconstructBinaryTree.java:14)
-	at ReconstructBinaryTreeTest.test(ReconstructBinaryTreeTest.java:42)
-	at ReconstructBinaryTreeTest.binaryTreeFromPreorderInorder3(ReconstructBinaryTreeTest.java:38)
-</error>
-  </testcase>
+  <testcase name="binaryTreeFromPreorderInorder2" classname="ReconstructBinaryTreeTest" time="0"/>
 </testsuite>

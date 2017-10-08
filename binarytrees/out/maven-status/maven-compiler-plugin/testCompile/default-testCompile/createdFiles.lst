@@ -4,5 +4,6 @@ ComputeLowestCommonAncestorTest.class
 ReconstructBinaryTreeTest.class
 ComputeLCAWithParentTest.class
 IsSymmetricTest.class
+ReconstructBinaryTreeWithMarkersTest.class
 ImplementInOrderSpaceEfficientTest.class
 PreOrderIterativeTest.class
