@@ -1,6 +1,7 @@
 InOrderIterativeTest.class
 IsHeightBalancedTest.class
 ComputeLowestCommonAncestorTest.class
+ReconstructBinaryTreeTest.class
 ComputeLCAWithParentTest.class
 IsSymmetricTest.class
 ImplementInOrderSpaceEfficientTest.class

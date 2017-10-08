@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: ReconstructBinaryTreeTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE! - in ReconstructBinaryTreeTest
+binaryTreeFromPreorderInorder2(ReconstructBinaryTreeTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<BinaryTree{data=4, left=2, right=6}> but was:<BinaryTree{data=0, left=1, right=4}>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ReconstructBinaryTreeTest.test(ReconstructBinaryTreeTest.java:42)
+	at ReconstructBinaryTreeTest.binaryTreeFromPreorderInorder2(ReconstructBinaryTreeTest.java:29)
+
+binaryTreeFromPreorderInorder3(ReconstructBinaryTreeTest)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:25)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorderHelper(ReconstructBinaryTree.java:30)
+	at ReconstructBinaryTree.binaryTreeFromPreorderInorder(ReconstructBinaryTree.java:14)
+	at ReconstructBinaryTreeTest.test(ReconstructBinaryTreeTest.java:42)
+	at ReconstructBinaryTreeTest.binaryTreeFromPreorderInorder3(ReconstructBinaryTreeTest.java:38)
+

@@ -1,5 +1,6 @@
 ComputeLCAWithParent.class
 PreOrderIterative.class
+ReconstructBinaryTree.class
 IsSymmetric.class
 ComputeLowestCommonAncestor$Status.class
 InOrderIterative.class
