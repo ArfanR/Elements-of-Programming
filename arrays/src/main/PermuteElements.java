@@ -3,7 +3,7 @@ import java.util.*;
 public class PermuteElements {
 
     /*
-    5.9
+    5.10
     */
 
 	public static void applyPermutation(List<Integer> perm, List<Integer> A) {
