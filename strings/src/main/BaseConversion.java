@@ -18,9 +18,7 @@ public class BaseConversion {
     	StringBuilder sb = new StringBuilder();
     	int convertNum = numAsInt;
     	while (convertNum != 0) {
-    		sb.append((char) (convertNum % b2 >= 10 ? 
-    				'A' + convertNum % b2 - 10 : 
-    					convertNum % b2 + '0'));
+    		sb.append((char) (convertNum % b2 >= 10 ? 'A' + convertNum % b2 - 10 : convertNum % b2 + '0'));
     		convertNum /= b2;
     	} 
     	sb.reverse();

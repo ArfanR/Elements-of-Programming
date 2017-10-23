@@ -15,8 +15,7 @@ public class PalindromeAlphanumeric {
 	      while (!Character.isLetterOrDigit(s.charAt(j)) && i < j) {
 	        --j;
 	      }
-	      if (Character.toLowerCase(s.charAt(i++))
-	          != Character.toLowerCase(s.charAt(j--))) {
+	      if (Character.toLowerCase(s.charAt(i++)) != Character.toLowerCase(s.charAt(j--))) {
 	        return false;
 	      }
 	    }
