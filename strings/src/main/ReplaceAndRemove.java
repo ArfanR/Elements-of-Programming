@@ -35,9 +35,9 @@ public class ReplaceAndRemove {
     
     // Variant: merge two sorted arrays into A
     public static void mergeArrays(char[] a, char[] b) {
-    	int indexA = 0, indexB = 0;
+    	int indexA = a.length-1, indexB = b.length-1;
     	int writeIdx = a.length + b.length - 1;
-    	while (indexA < a.length && indexB < b.length) {
+    	while (indexA >= 0 && indexB >= 0) {
     		if (a[indexA] < b[indexB]) {
     			a[writeIdx--] = a[indexA++];
     		}
@@ -45,10 +45,10 @@ public class ReplaceAndRemove {
     			a[writeIdx--] = a[indexB++];
     		}
     	}
-    	while (indexA < a.length) {
+    	while (indexA >= 0) {
     		a[writeIdx--] = a[indexA++];
     	}
-    	while (indexB < b.length) {
+    	while (indexB >= 0) {
     		a[writeIdx--] = a[indexB++];
     	}
     }
