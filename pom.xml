@@ -11,6 +11,7 @@
   		<module>primitives</module>
         <module>arrays</module>
         <module>strings</module>
+        <module>hashtables</module>
         <module>linkedlists</module>
         <module>stacksandqueues</module>
         <module>binarytrees</module>
