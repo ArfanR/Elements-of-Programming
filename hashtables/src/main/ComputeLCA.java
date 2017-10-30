@@ -11,7 +11,7 @@ public class ComputeLCA {
         while (node0 != null || node1 != null) {
           // Ascend tree in tandem from these two nodes.
         	if (node0 != null) {
-        		if (!hash.add(node0)) {
+        		if (!hash.add(node0)) {L
         			return node0;
         		}
         		node0 = node0.parent;
