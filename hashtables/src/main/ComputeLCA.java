@@ -7,11 +7,11 @@ public class ComputeLCA {
     */
 
     public static BinaryTreeParent<Integer> LCA(BinaryTreeParent<Integer> node0, BinaryTreeParent<Integer> node1) {
-    	Set<BinaryTree<Integer>> hash = new HashSet<>();
+    	Set<BinaryTreeParent<Integer>> hash = new HashSet<>();
         while (node0 != null || node1 != null) {
           // Ascend tree in tandem from these two nodes.
         	if (node0 != null) {
-        		if (!hash.add(node0)) {L
+        		if (!hash.add(node0)) {
         			return node0;
         		}
         		node0 = node0.parent;

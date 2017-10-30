@@ -10,7 +10,7 @@ public class SpreadsheetColumnEncoding {
     	int result = 0;
     	for (int i = 0; i < code.length(); i++) {
     		char c = code.charAt(i);
-    		result = result * 26 + (int) c - 'A';
+    		result = result * 26 + (int) c - 'A' + 1;
     	}
     	return result;
     }

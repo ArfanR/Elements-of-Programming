@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: IsLetterConstructableTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in IsLetterConstructableTest
+isConstructable1(IsLetterConstructableTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at IsLetterConstructable.isConstructable(IsLetterConstructable.java:17)
+	at IsLetterConstructableTest.test(IsLetterConstructableTest.java:39)
+	at IsLetterConstructableTest.isConstructable1(IsLetterConstructableTest.java:17)
+
+isConstructable2(IsLetterConstructableTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at IsLetterConstructable.isConstructable(IsLetterConstructable.java:17)
+	at IsLetterConstructableTest.test(IsLetterConstructableTest.java:39)
+	at IsLetterConstructableTest.isConstructable2(IsLetterConstructableTest.java:26)
+
+isConstructable3(IsLetterConstructableTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at IsLetterConstructable.isConstructable(IsLetterConstructable.java:17)
+	at IsLetterConstructableTest.test(IsLetterConstructableTest.java:39)
+	at IsLetterConstructableTest.isConstructable3(IsLetterConstructableTest.java:35)
+
