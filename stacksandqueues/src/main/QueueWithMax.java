@@ -2,6 +2,10 @@ import java.util.*;
 
 public class QueueWithMax<T extends Comparable<T>> {
 
+	/*
+    8.10
+    */
+	
 	private Queue<T> entries = new LinkedList<>();
 	private Deque<T> candidatesForMax = new LinkedList<>();
 

@@ -1,5 +1,9 @@
 public class DeleteKthLastNode {
  
+	/*
+    7.7
+    */
+	
 	// Assumes L has at least k nodes, deletes the k-th last node in L.
 	public static ListNode<Integer> deleteNode(ListNode<Integer> L, int k) {
 		ListNode<Integer> dummyHead = new ListNode<>(0, L);
