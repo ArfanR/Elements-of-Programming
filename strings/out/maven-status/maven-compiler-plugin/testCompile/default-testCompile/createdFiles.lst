@@ -1,9 +1,11 @@
 InterconvertStringAndIntegerTest.class
 ComputeMnemonicsPhoneNumberTest.class
+ComputeValidIPAddressesTest.class
 RomanToDecimalTest.class
 ReverseWordsInASentenceTest.class
 BaseConversionTest.class
 PalindromeAlphanumericTest.class
+RunLengthEncodingTest.class
 LookAndSayProblemTest.class
 SpreadsheetColumnEncodingTest.class
 StringSinusoidalTest.class

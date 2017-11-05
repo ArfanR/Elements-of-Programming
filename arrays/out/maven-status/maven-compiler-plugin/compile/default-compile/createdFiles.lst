@@ -2,9 +2,11 @@ DeleteDuplicates.class
 IncrementArbitraryPrecisionInteger.class
 BuySellStockTwice.class
 EnumeratePrimes.class
+SampleOfflineData.class
 MultipleArbitraryPrecisionIntegers.class
 BuySellStockOnce.class
 PermuteElements.class
+ComputeRandomSubset.class
 Rearrange.class
 DutchNationalFlag.class
 AdvanceThroughArray.class

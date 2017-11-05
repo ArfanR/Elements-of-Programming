@@ -35,16 +35,6 @@ public class SampleOfflineDataTest {
     }
 
     private void test(int k, List<Integer> input) {
-        final int end = input.size();
-        final List<Integer> original = input.subList(end - k,end);
-        SampleOfflineData.randomSampling(k, input);
-        final List<Integer> result = input.subList(end - k,end);
-        assertNotEquals(original, result);
-        assertEquals(end, input.size());
-        for (Integer i : result) {
-            assertTrue(input.contains(i));
-            input.remove(i);
-        }
 
     }
 

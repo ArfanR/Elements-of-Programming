@@ -1,10 +1,12 @@
 AdvanceThroughArrayTest.class
+ComputeRandomSubsetTest.class
 DeleteDuplicatesTest.class
 BuySellStockTwiceTest.class
 IncrementArbitraryPrecisionIntegerTest.class
 BuySellStockOnceTest.class
 DutchNationalFlagTest.class
 MultipleArbitraryPrecisionIntegersTest.class
+SampleOfflineDataTest.class
 EnumeratePrimesTest.class
 PermuteElementsTest.class
 RearrangeTest.class

@@ -1,11 +1,13 @@
+LookAndSayProblem.class
+ComputeValidIPAddresses.class
+PalindromeAlphanumeric.class
 ComputeMnemonicsPhoneNumber.class
+RunLengthEncoding.class
 ReverseWordsInASentence.class
 InterconvertStringAndInteger.class
 RomanToDecimal.class
 SpreadsheetColumnEncoding.class
-LookAndSayProblem.class
 BaseConversion.class
 ReplaceAndRemove.class
-PalindromeAlphanumeric.class
 StringSinusoidal.class
 RomanToDecimal$1.class

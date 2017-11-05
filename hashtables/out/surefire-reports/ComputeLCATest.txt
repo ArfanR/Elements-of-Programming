@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: ComputeLCATest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.09 sec <<< FAILURE! - in ComputeLCATest
-LCA3(ComputeLCATest)  Time elapsed: 0.011 sec  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.076 sec <<< FAILURE! - in ComputeLCATest
+LCA3(ComputeLCATest)  Time elapsed: 0.009 sec  <<< ERROR!
 java.lang.IllegalArgumentException: node0 and node1 are not in the same tree
 	at ComputeLCA.LCA(ComputeLCA.java:26)
-	at ComputeLCATest.test(ComputeLCATest.java:44)
-	at ComputeLCATest.LCA3(ComputeLCATest.java:40)
+	at ComputeLCATest.test(ComputeLCATest.java:45)
+	at ComputeLCATest.LCA3(ComputeLCATest.java:41)
 
