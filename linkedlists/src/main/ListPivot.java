@@ -4,7 +4,7 @@ public class ListPivot {
     7.12
     */
 
-    public static ListNode<Integer> pivot(ListNode<Integer> list, int k) {
+    public static ListNode<Integer> pivot(ListNode<Integer> list, int x) {
     	ListNode<Integer> lessHead = new ListNode<>(0, null);
         ListNode<Integer> equalHead = new ListNode<>(0, null);
         ListNode<Integer> greaterHead = new ListNode<>(0, null);
@@ -12,7 +12,7 @@ public class ListPivot {
         ListNode<Integer> equalIter = equalHead;
         ListNode<Integer> greaterIter = greaterHead;
         // Populates the three lists.
-        ListNode<Integer> iter = L;
+        ListNode<Integer> iter = list;
         while (iter != null) {
         	if (iter.data < x) {
         		lessIter.next = iter;

@@ -4,7 +4,7 @@ public class AddIntegers {
     7.13
     */
     
-    public static ListNode<Integer> addIntegers(ListNode<Integer> a, ListNode<Integer> b) {
+    public static ListNode<Integer> addIntegers(ListNode<Integer> L1, ListNode<Integer> L2) {
     	ListNode<Integer> dummyHead = new ListNode<>(0, null);
         ListNode<Integer> placeIter = dummyHead;
         int carry = 0;

@@ -1,9 +1,11 @@
 Palindromic.class
 RemoveDuplicatesFromSortedList.class
 TestForOverlappingLists.class
+AddIntegers.class
 ReverseSingleSublist.class
 EvenOddMerge.class
 DeleteKthLastNode.class
+ListPivot.class
 MergeSortedLists.class
 TestCyclicity.class
 DeleteNode.class

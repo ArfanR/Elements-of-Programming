@@ -4,7 +4,9 @@ ReverseSingleSublistTest.class
 TestCyclicityTest.class
 MergeSortedListsTest.class
 RemoveDuplicatesFromSortedListTest.class
+AddIntegersTest.class
 LinkedListUtil.class
 TestForOverlappingListsTest.class
 DeleteKthLastNodeTest.class
 PalindromicTest.class
+ListPivotTest.class
