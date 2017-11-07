@@ -25,7 +25,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/ArfanR/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7912080923129394349.tmp"/>
+    <property name="classworlds.conf" value="/Users/ArfanR/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4859727925893959284.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/ArfanR/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,7 +61,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="LCA1" classname="ComputeLCAWithParentTest" time="0.003"/>
+  <testcase name="LCA1" classname="ComputeLCAWithParentTest" time="0.004"/>
   <testcase name="LCA2" classname="ComputeLCAWithParentTest" time="0"/>
-  <testcase name="LCA3" classname="ComputeLCAWithParentTest" time="0.001"/>
+  <testcase name="LCA3" classname="ComputeLCAWithParentTest" time="0"/>
 </testsuite>

@@ -32,15 +32,6 @@ public class ComputeLCATest {
         test(expected, node0, node1);
     }
 
-    @Test
-    public void LCA3() throws Exception {
-    	expected = null;
-        node0 = new BinaryTreeParent<>(0);
-        node1 = new BinaryTreeParent<>(1);
-
-        test(expected, node0, node1);
-    }
-
     private void test(BinaryTreeParent<Integer> expected, BinaryTreeParent<Integer> node0, BinaryTreeParent<Integer> node1) {
         assertEquals(expected, ComputeLCA.LCA(node0, node1));
     }

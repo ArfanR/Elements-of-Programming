@@ -10,7 +10,7 @@ public class IsLetterConstructable {
     	Map<Character, Integer> charFrequencyForLetter = new HashMap<>();
     	for (int i = 0; i < letterText.length(); i++) {
     		char c = letterText.charAt(i);
-    		if (charFrequencyForLetter.containsKey(c)) {
+    		if (!charFrequencyForLetter.containsKey(c)) {
     			charFrequencyForLetter.put(c, 1);
     		}
     		else {
