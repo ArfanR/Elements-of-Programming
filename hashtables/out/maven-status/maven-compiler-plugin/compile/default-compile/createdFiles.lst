@@ -1,6 +1,7 @@
-LRUCache.class
 LRUCache$1.class
 PalindromicPermutations.class
+ComputeKMostFrequent.class
+NearestRepeated.class
+LRUCache.class
 ComputeLCA.class
 IsLetterConstructable.class
-NearestRepeated.class

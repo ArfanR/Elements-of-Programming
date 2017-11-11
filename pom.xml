@@ -16,6 +16,8 @@
         <module>stacksandqueues</module>
         <module>binarytrees</module>
         <module>binarysearchtrees</module>
+        <module>searching</module>
+        <module>sorting</module>
   </modules>
   
   <build>
