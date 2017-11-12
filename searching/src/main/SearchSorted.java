@@ -40,7 +40,7 @@ public class SearchSorted {
     			left = mid + 1;
     		}
     	}
-    	return result+1 > list.size()-1 ? -1 : result+1
+    	return result+1 > list.size()-1 ? -1 : result+1;
     }
     
     
