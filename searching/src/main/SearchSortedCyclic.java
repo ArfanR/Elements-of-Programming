@@ -23,4 +23,9 @@ public class SearchSortedCyclic {
         // Loop ends when left == right.
         return left;
     }
+    
+    // Variant: search for element in cyclically sorted array
+    public static int search2(List<Integer> A, int k) {
+    	return 0;
+    }
 }
