@@ -2,3 +2,5 @@ SearchSorted.class
 IntegerSquareRoot.class
 SearchSortedCyclic.class
 SearchSortedIndex.class
+RealSquareRoot.class
+RealSquareRoot$Ordering.class
