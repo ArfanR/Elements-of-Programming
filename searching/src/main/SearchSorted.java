@@ -24,23 +24,20 @@ public class SearchSorted {
     	return result;
     }
     
-    // Variant: find first element greater than key
+    // Variant: find index of first element greater than key
     public static int search2(List<Integer> list, int k) {
     	int left = 0, right = list.size() - 1, result = -1;
     	while (left <= right) {
     		int mid = left + ( (right - left) / 2);
-    		if (list.get(mid) == k) {
-    			result = mid;
+    		if (list.get(mid) <= k) {
     			left = mid + 1;
     		}
     		else if (list.get(mid) > k) {
+    			result = mid;
     			right = mid - 1;
     		}
-    		else {
-    			left = mid + 1;
-    		}
     	}
-    	return result+1 > list.size()-1 ? -1 : result+1;
+    	return result;
     }
     
     
