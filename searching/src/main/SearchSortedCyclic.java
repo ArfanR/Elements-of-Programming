@@ -26,6 +26,35 @@ public class SearchSortedCyclic {
     
     // Variant: search for element in cyclically sorted array
     public static int search2(List<Integer> A, int k) {
-    	return 0;
+    	int left = 0, right = A.size() - 1;
+    	while (left <= right) {
+    		int mid = left + ((right - left) / 2);
+    		if (A.get(mid) == k) {
+    			return mid;
+    		}
+    		// left to mid is sorted
+    		else if (A.get(mid) >= A.get(left)) {
+    			// search in left to mid
+    			if (k >= A.get(left) && k <= A.get(mid)) {
+    				right = mid - 1;
+    			}
+    			// search in right half
+    			else {
+    				left = mid + 1;
+    			}
+    		}
+    		// mid to right is sorted
+    		else {
+    			// search in mid to right
+    			if (k >= A.get(mid) && k <= A.get(right)) {
+    				left = mid + 1;
+    			}
+    			// search in left half
+    			else {
+    				right = mid - 1;
+    			}
+    		}
+    	}
+    	return -1;
     }
 }
