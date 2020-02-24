@@ -1,8 +1,8 @@
 DeleteDuplicates.class
 IncrementArbitraryPrecisionInteger.class
-BuySellStockTwice.class
-EnumeratePrimes.class
 SampleOfflineData.class
+EnumeratePrimes.class
+BuySellStockTwice.class
 MultipleArbitraryPrecisionIntegers.class
 BuySellStockOnce.class
 PermuteElements.class

@@ -26,7 +26,7 @@ public class ReverseSingleSublist {
  	public static ListNode<Integer> reverse(ListNode<Integer> head) {
  		ListNode<Integer> prev = null;
  		ListNode<Integer> current = head;
- 		ListNode<Integer> next;
+ 		ListNode<Integer> next = null;
  		// use prev as dummy node
  		while (current != null) {
  			next = current.next;
@@ -34,7 +34,8 @@ public class ReverseSingleSublist {
  			prev = current;
  			current = next;
  		}
- 		return prev;
+ 		head = prev;
+ 		return head;
  	}
     
 }

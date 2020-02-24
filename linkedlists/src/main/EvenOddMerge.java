@@ -4,25 +4,22 @@ public class EvenOddMerge {
     7.10
     */
 
-    public static ListNode<Integer> merge(ListNode<Integer> head) {
-        if(head == null) {
-            return head;
+    public static ListNode<Integer> merge(ListNode<Integer> L) {
+        if (L == null) {
+            return L;
         }
-        ListNode<Integer> result = head;
-        ListNode<Integer> p1 = head;
-        ListNode<Integer> p2 = head.next;
-        ListNode<Integer> connectNode = head.next;
-     
-        while (p1 != null && p2 != null) {
-        	if (p2.next == null) break;
-        	
-        	p1.next = p2.next;
-        	p1 = p1.next;
-     
-        	p2.next = p1.next;	
-        	p2 = p2.next;
+        
+        ListNode<Integer> evenDummyHead = new ListNode<>(0, null);
+        ListNode<Integer> oddDummyHead = new ListNode<>(0, null);
+        List<ListNode<Integer>> tails = Arrays.asList(evenDummyHead, oddDummyHead);
+        int turn = 0;
+        for (ListNode<Integer> iter = L; iter != null; iter = iter.next) {
+        	tails.get(turn).next = iter;
+        	tails.set(turn, tails.get(turn).next);
+        	turn ^= 1;
         }
-        p1.next = connectNode;
-        return result;
+        tails.get(1).next = null;
+        tails.get(0).next = oddDummyHead.next;
+        return evenDummyHead.next;
     }
 }

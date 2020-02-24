@@ -51,7 +51,7 @@ public class SearchSortedTest {
 
     public void test(int n, int k) throws Exception {
         List<Integer> list = StreamUtil.sequence(n);
-        assertEquals(list.indexOf(k), SearchSorted.search(list, k));
+        assertEquals(list.indexOf(k), SearchSorted.searchFirstOfK(list, k));
     }
 
 }

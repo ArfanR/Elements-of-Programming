@@ -38,18 +38,18 @@ public class ReplaceAndRemove {
     	int indexA = a.length-1, indexB = b.length-1;
     	int writeIdx = a.length + b.length - 1;
     	while (indexA >= 0 && indexB >= 0) {
-    		if (a[indexA] < b[indexB]) {
-    			a[writeIdx--] = a[indexA++];
+    		if (a[indexA] > b[indexB]) {
+    			a[writeIdx--] = a[indexA--];
     		}
     		else {
-    			a[writeIdx--] = a[indexB++];
+    			a[writeIdx--] = a[indexB--];
     		}
     	}
     	while (indexA >= 0) {
-    		a[writeIdx--] = a[indexA++];
+    		a[writeIdx--] = a[indexA--];
     	}
     	while (indexB >= 0) {
-    		a[writeIdx--] = a[indexB++];
+    		a[writeIdx--] = a[indexB--];
     	}
     }
     

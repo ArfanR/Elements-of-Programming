@@ -1,23 +1,23 @@
-public class RemoveDuplicatesFromSortedList {
+ public class RemoveDuplicatesFromSortedList {
 
     /*
     7.8
     */
 
-    public static void removeDuplicates(ListNode<Integer> list) {
-    	ListNode<Integer> dummy = list;
-    	ListNode<Integer> temp = null;
-    	
-    	while (dummy.next != null) {
-    		if (dummy.data == dummy.next.data) {
-    			temp = dummy.next.next;
-    			dummy.next = null;
-    			dummy.next = temp;
+    public static ListNode<Integer> removeDuplicates(ListNode<Integer> list) {
+    	ListNode<Integer> dummyHead = new ListNode<Intger>(0, list);
+    	ListNode<Integer> iter = dummyHead.next;
+   	
+    	while (iter != null) {
+    		ListNode<Integer> nextDistinct = iter.next;
+    		while (nextDistinct != null && nextDistinct.data != iter.data) {
+    			nextDistinct = nextDistinct.next;
     		}
-    		else {
-    			dummy = dummy.next;
-    		}
+    		iter.next = nextDistinct;
+    		iter = nextDistinct;
     	}
+    	
+    	return dummyHead.next;
     }
 
 }

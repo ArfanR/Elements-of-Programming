@@ -23,14 +23,14 @@ public class DeleteDuplicates {
     
     // Variant: remove specific duplicate element 
     public static int deleteDuplicates2(List<Integer> A, int b) {
-    	int counter = 1;
-    	// overwrite duplicates with unique values
-    	for (int i = 1; i < A.size(); i++) {
+    	int writeIndex = 0;
+    	// overwrite duplicates of the element
+    	for (int i = 0; i < A.size(); i++) {
     		if (A.get(i) != b) {
-    			A.set(counter++, A.get(i));
+    			A.set(writeIndex++, A.get(i));
     		}
     	}
-    	return counter;
+    	return writeIndex;
     }
     
     // Variant: remove duplicates to appear at most twice
