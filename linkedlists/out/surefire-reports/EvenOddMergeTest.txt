@@ -20,7 +20,7 @@ java.lang.Error: Unresolved compilation problems:
 	at EvenOddMergeTest.test(EvenOddMergeTest.java:41)
 	at EvenOddMergeTest.merge2(EvenOddMergeTest.java:21)
 
-merge3(EvenOddMergeTest)  Time elapsed: 0 sec  <<< ERROR!
+merge3(EvenOddMergeTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.Error: Unresolved compilation problems: 
 	List cannot be resolved to a type
 	Arrays cannot be resolved
@@ -29,7 +29,7 @@ java.lang.Error: Unresolved compilation problems:
 	at EvenOddMergeTest.test(EvenOddMergeTest.java:41)
 	at EvenOddMergeTest.merge3(EvenOddMergeTest.java:29)
 
-merge4(EvenOddMergeTest)  Time elapsed: 0.001 sec  <<< ERROR!
+merge4(EvenOddMergeTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.Error: Unresolved compilation problems: 
 	List cannot be resolved to a type
 	Arrays cannot be resolved

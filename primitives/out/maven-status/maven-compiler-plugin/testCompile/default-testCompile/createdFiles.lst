@@ -1,3 +1,4 @@
-ComputeParityTest.class
-ReverseBitsTest.class
 CheckIfIntegerIsPalindromeTest.class
+ComputeParityTest.class
+ComputePowerTest.class
+ReverseBitsTest.class

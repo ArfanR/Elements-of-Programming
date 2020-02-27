@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: RemoveDuplicatesFromSortedListTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE! - in RemoveDuplicatesFromSortedListTest
-removeDuplicates1(RemoveDuplicatesFromSortedListTest)  Time elapsed: 0.002 sec  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in RemoveDuplicatesFromSortedListTest
+removeDuplicates1(RemoveDuplicatesFromSortedListTest)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.Error: Unresolved compilation problems: 
 	The constructor ListNode<Intger>(int, ListNode<Integer>) is undefined
 	ListNode<Intger> cannot be resolved to a type
@@ -22,7 +22,7 @@ java.lang.Error: Unresolved compilation problems:
 	at RemoveDuplicatesFromSortedListTest.test(RemoveDuplicatesFromSortedListTest.java:41)
 	at RemoveDuplicatesFromSortedListTest.removeDuplicates2(RemoveDuplicatesFromSortedListTest.java:21)
 
-removeDuplicates3(RemoveDuplicatesFromSortedListTest)  Time elapsed: 0.001 sec  <<< ERROR!
+removeDuplicates3(RemoveDuplicatesFromSortedListTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.Error: Unresolved compilation problems: 
 	The constructor ListNode<Intger>(int, ListNode<Integer>) is undefined
 	ListNode<Intger> cannot be resolved to a type

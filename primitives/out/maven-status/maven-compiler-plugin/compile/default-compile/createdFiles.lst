@@ -1,6 +1,7 @@
-ComputeParity.class
 RectangleIntersection.class
 ReverseDigits.class
 RectangleIntersection$Rectangle.class
 CheckIfIntegerIsPalindrome.class
 ReverseBits.class
+ComputePower.class
+ComputeParity.class
