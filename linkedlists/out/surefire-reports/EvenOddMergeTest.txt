@@ -1,4 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: EvenOddMergeTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in EvenOddMergeTest
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE! - in EvenOddMergeTest
+merge1(EvenOddMergeTest)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problems: 
+	List cannot be resolved to a type
+	Arrays cannot be resolved
+
+	at EvenOddMerge.merge(EvenOddMerge.java:14)
+	at EvenOddMergeTest.test(EvenOddMergeTest.java:41)
+	at EvenOddMergeTest.merge1(EvenOddMergeTest.java:13)
+
+merge2(EvenOddMergeTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problems: 
+	List cannot be resolved to a type
+	Arrays cannot be resolved
+
+	at EvenOddMerge.merge(EvenOddMerge.java:14)
+	at EvenOddMergeTest.test(EvenOddMergeTest.java:41)
+	at EvenOddMergeTest.merge2(EvenOddMergeTest.java:21)
+
+merge3(EvenOddMergeTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problems: 
+	List cannot be resolved to a type
+	Arrays cannot be resolved
+
+	at EvenOddMerge.merge(EvenOddMerge.java:14)
+	at EvenOddMergeTest.test(EvenOddMergeTest.java:41)
+	at EvenOddMergeTest.merge3(EvenOddMergeTest.java:29)
+
+merge4(EvenOddMergeTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problems: 
+	List cannot be resolved to a type
+	Arrays cannot be resolved
+
+	at EvenOddMerge.merge(EvenOddMerge.java:14)
+	at EvenOddMergeTest.test(EvenOddMergeTest.java:41)
+	at EvenOddMergeTest.merge4(EvenOddMergeTest.java:37)
+
